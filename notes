@@ -1,0 +1,52 @@
+python fundamentals
+
+python uses duck typing meaning that the suitability of an object type
+is only detected at run time
+
+cpython is the standard implementation
+ironpy, jpy, pypy are others
+
+------------------------------
+Getting started with python 3
+------------------------------
+
+repl
+--------------------
+read input, evaluate input, print input, loop back to top
+_ refers to the last referenced variable
+ctrl z exits the repl
+
+whitespaces
+--------------------
+python uses indentation rather than curly braces to demarc code
+four spaces does it, tabs are not needed over spaces
+do not mix tabs and spaces
+
+
+all lines that end with a colon will denote that the line below has an indentation
+
+importing from repl
+--------------------
+import math
+help(math)
+space to go through all types
+
+for instance, if we want factorial from math
+	math.factorial(var)
+
+for multiple references, or better looking code
+	from math import factorial
+	factorial(var)
+
+for even shorter
+	from math import factorial as fac
+	fac(var)
+
+if you want only an integer, use // instead of /
+	this will return a full number
+
+integers aren't an issue, only limited by memory in computer
+
+to get the length of an integer, convert it to a string
+	looks like len(str(var)))
+	to figure out digits of fac(10), len(str(fac(10)))
