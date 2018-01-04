@@ -50,23 +50,3 @@ integers aren't an issue, only limited by memory in computer
 to get the length of an integer, convert it to a string
 	looks like len(str(var)))
 	to figure out digits of fac(10), len(str(fac(10)))
-
-if looking for more info, type help() for interactive or help(module)
-q exits the help browser
-
-scalar types
---------------------
-integers have unlimited precision, expressed as non decimal numbers
-	0b10	binary
-	0o10	octagonal?
-	0x10	hex
-int(3.5) = 3, int (-3.5) = -3
-	always rounds towards 0
-
-int("496") = 496, converts a string into an int
-
-floats are ieee-754 having 53 bits of binary precision
-	close to 15/16 decimal points
-
-scientific notation can be used, as in 3e8 = 30000000.0
-
